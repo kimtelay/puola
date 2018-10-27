@@ -1,0 +1,45 @@
+$primary-color: #dc143c; 
+
+$topbar-bg-color: rgba(0,0,0,0);
+
+/* Background color for the top bar */
+$topbar-bg: rgba(0,0,0,0);
+
+/* Style the top bar dropdown elements */
+$topbar-dropdown-bg: rgba(0,0,0,0);
+$topbar-dropdown-link-color: #444;
+$topbar-dropdown-link-bg: #eee;
+$topbar-dropdown-toggle-size: 5px;
+$topbar-dropdown-toggle-color: #222;
+$topbar-dropdown-toggle-alpha: 0.5;
+
+/* Set the link colors and styles for top-level nav */
+$topbar-link-color: #111;
+$topbar-link-color-hover: $primary-color;
+$topbar-link-color-active: $primary-color;
+$topbar-link-color-active-hover: scale-color($primary-color, $lightness: -40%);
+$topbar-link-weight: normal;
+$topbar-link-font-size: rem-calc(13);
+$topbar-link-hover-lightness: -10%; // Darken by 10%
+$topbar-link-bg-hover: #fbfbfb;
+$topbar-link-bg-active: #fff;
+$topbar-link-bg-active-hover: #fff;
+
+$topbar-dropdown-label-color: #555;
+$topbar-dropdown-label-text-transform: uppercase;
+$topbar-dropdown-label-font-weight: bold;
+$topbar-dropdown-label-font-size: rem-calc(10);
+
+/* Top menu icon styles */
+$topbar-menu-link-transform: uppercase;
+$topbar-menu-link-font-size: rem-calc(13);
+$topbar-menu-link-weight: bold;
+$topbar-menu-link-color: #111;
+$topbar-menu-icon-color: #222;
+$topbar-menu-link-color-toggled: #777;
+$topbar-menu-icon-color-toggled: #777;
+
+
+/* Divider Styles */
+$topbar-divider-border-bottom: solid 1px  scale-color($topbar-bg-color, $lightness: 13%);
+$topbar-divider-border-top: solid 1px scale-color($topbar-bg-color, $lightness: -50%);
